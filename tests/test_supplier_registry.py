@@ -1,5 +1,5 @@
 
-from suppliers import Registry
+from src.suppliers import Registry
 
 
 def test_fulfill_success():

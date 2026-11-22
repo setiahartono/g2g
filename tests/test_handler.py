@@ -1,7 +1,7 @@
 
 import json
 
-from src.handler import lambda_handler
+from src.handlers.handler import lambda_handler
 
 
 def make_event(method="POST", path="/fulfill", body=None):

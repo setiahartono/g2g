@@ -1,6 +1,6 @@
 import json, pydantic
-from .models import FulfillmentRequest
-from suppliers import Registry
+from ..models.models import FulfillmentRequest
+from src.suppliers import Registry
 
 
 def lambda_handler(event, context):

@@ -1,6 +1,6 @@
 
-from suppliers.supplier_a import SupplierA
-from suppliers.supplier_b import SupplierB
+from src.suppliers.supplier_a import SupplierA
+from src.suppliers.supplier_b import SupplierB
 
 
 ORDER = {
